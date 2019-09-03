@@ -1,8 +1,53 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: 'avenirfont';
+  src: url('/fonts/AvenirNext-Bold.woff') format('woff'), url('/fonts/AvenirNext-Bold.woff2') format('woff2');
+  font-weight: 600;
 }
 
-a {
-  color: #00B7FF;
+@font-face {
+  font-family: 'avenirfont';
+  src: url('/fonts/AvenirNext-Medium.woff') format('woff'), url('/fonts/AvenirNext-Medium.woff2') format('woff2');
+  font-weight: 500;
 }
+
+@font-face {
+  font-family: 'avenirfont';
+  src: url('/fonts/AvenirNext-Regular.woff') format('woff'), url('/fonts/AvenirNext-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+body
+{
+   background-color: #F0F4F7;
+   font-family: 'avenirfont';
+}
+.clear
+{
+  clear: both;
+}
+h1{
+  font-family:"avenirfont";
+  font-size: 36px;
+  font-weight: 600;
+}
+h2
+{
+  font-family:"avenirfont";
+  font-size: 30px;
+  font-weight: 600;
+}
+h3{
+  font-family:"avenirfont";
+  font-size: 20px;
+  font-weight: 600;
+}
+h4{
+  font-family:"avenirfont";
+  font-size: 16px;
+  font-weight: 600;
+}
+h5{
+  font-family:"avenirfont";
+  font-size: 14px;
+  font-weight: 600;
+} 

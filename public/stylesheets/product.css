@@ -1,0 +1,71 @@
+.product {
+    background-color: #fff;
+    color: black;
+    padding-top: 21px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+}
+.product td img
+{
+    width: 50px;
+    height: 70px;
+}
+.product .product-img
+{
+    padding: 16px;
+    background-color:#1e74ba;
+    border-radius: 5px;
+}
+.product .product-title
+{
+    padding-left: 20px;
+}
+.product .product-title h4{
+    font-weight: 500;
+}
+.product .product-title h5{
+    font-weight: 400;
+    color:#4a4a4a;
+}
+.product .product-price
+{
+    padding-left: 46px;
+}
+.product .product-price h4{
+    color:#0099a8;
+    font-weight: 500;
+}
+.product .product-price h5{
+    color:#4a4a4a;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+
+
+/*------------------------------------------*/
+
+@media screen and (min-width: 1200px) {}
+
+/************ Landscape tablets and medium desktops ******************/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/**************   Portrait tablets and small desktops **************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/************** Landscape phones and portrait tablets ************************/
+
+@media screen and (max-width: 767px) {}
+
+/********************* Portrait phones and smaller ************************8*/
+
+@media screen and (max-width: 575px) {
+    .product {
+         
+        padding-top: 15px;
+        padding-left: 20px; 
+    }
+}

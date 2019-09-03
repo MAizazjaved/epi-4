@@ -1,0 +1,73 @@
+.main-body {
+    max-width: 600px;
+}
+
+.hi-name h1, .hi-name h5 {
+    margin-bottom: 20px;
+}
+
+.hi-name {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.hi-name p {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.free-shipping {
+    background-color: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+
+.order-button {
+    background-color: #fff;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 30px;
+}
+
+/*------------------------------------------*/
+
+@media screen and (min-width: 1200px) {}
+
+/************ Landscape tablets and medium desktops ******************/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/**************   Portrait tablets and small desktops **************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/************** Landscape phones and portrait tablets ************************/
+
+@media screen and (max-width: 767px) {}
+
+/********************* Portrait phones and smaller ************************8*/
+
+@media screen and (max-width: 575px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .order-button {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .hi-name {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+    .free-shipping {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

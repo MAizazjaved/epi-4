@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="main-body mx-auto">
+        {{> navbar }}
+
+        <div class="hi-name">
+            <h1>Hi, [name]!</h1>
+            <h5>We are out of stock :( </h5>
+            <p>
+                Our sincere apologies. The <strong>Product name</strong> you have on your Blackmores Subscribe order is
+                temporarily
+                out of stock.<br><br>
+                As soon as <strong> product name </strong> is back in stock we'll notify you.<br><br>
+                Alternatively you can modify your order. Simply click on 'Modify' and you'll be directed to the checkout
+                to amend it. Please note that if you modify, any previous discount may be removed from your shopping
+                cart.
+            </p>
+
+        </div>
+        {{> product}}
+
+        <div class="free-shipping mx-auto text-center">
+            <h4>Subtotal of $35.48 plus FREE shipping</h4>
+        </div>
+        
+        <div class="order-button mx-auto text-center">
+            {{> button value='Modify Order' }}
+        </div>
+
+
+
+
+        {{> footer }}
+    </div>
+</div>

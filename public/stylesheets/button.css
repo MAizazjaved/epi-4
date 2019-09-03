@@ -1,0 +1,14 @@
+.btn-primary
+{
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    border-radius: 21.5px;
+    background-color:#0099a8;
+}
+.btn-primary:hover
+{
+    background-color: transparent;
+    color:#0099a8;
+}

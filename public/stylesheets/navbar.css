@@ -1,0 +1,66 @@
+.bg-clr {
+    background-color: #009ea0;
+}
+
+.navbar {
+    height: 92px;
+    padding-left:35px;
+}
+
+.navbar-nav {
+    right: 5%;
+    position: absolute;
+}
+
+.navbar ul li a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navbar ul li a:hover {
+    color: #F0F4F7 !important;
+}
+
+.navbar-brand img {
+    width: 153px;
+    height: 17px;
+}
+
+/*------------------------------------------*/
+
+@media screen and (min-width: 1200px) {}
+
+/************ Landscape tablets and medium desktops ******************/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/**************   Portrait tablets and small desktops **************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/************** Landscape phones and portrait tablets ************************/
+
+@media screen and (max-width: 767px) {}
+
+/********************* Portrait phones and smaller ************************8*/
+
+@media screen and (max-width: 575px) {
+    .navbar {
+        width: 100%;
+        height: 77px;
+        padding-left:20px;
+    }
+    .navbar ul {
+        flex-direction: row !important;
+    }
+    .navbar ul li a {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        font-size: 12px;
+    }
+    .navbar-brand img {
+        width: 107px;
+        height: 11.9px;
+    }
+}

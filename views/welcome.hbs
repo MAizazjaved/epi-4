@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="main-body mx-auto">
+        {{> navbar }}
+
+        <div class="hi-name">
+            <h1 style="margin-bottom:7px;">Hi, [name]!</h1>
+            <h1>Don’t forget your vitamins!</h1>
+            <p>
+                We noticed that you forgot some [ product name ] in your cart. Its ok, these things happen. Come back
+                and pick it up whenever you’re ready!
+            </p>
+
+        </div>
+        <div class="welcome">
+            <div class="welcome-banner text-center">
+                <h5 style="color:#1e74ba;padding-bottom:10px;">Exclusive offer: checkout with code </h5>
+                <h2 style="padding-bottom:10px;">WELCOME</h2>
+                <h5 style="color:#1e74ba">to receive 30% off your order plus free shipping anywhere in the world!</h5>
+            </div>
+        </div>
+
+        {{> product}}
+
+        <div class="free-shipping mx-auto text-center">
+            <h4>Subtotal of $35.48 plus FREE shipping</h4>
+        </div>
+        <div class="shopping-button">
+            <button type="button" class="btn btn-outline-primary">Keep Shopping</button>
+        </div>
+        <div class="checkout-button">
+            {{> button value='CheckOut' }}
+        </div>
+        <div class="clear"></div>
+
+        {{> footer }}
+    </div>
+
+</div>
