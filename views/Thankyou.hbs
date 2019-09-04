@@ -1,0 +1,136 @@
+<div class="container">
+    {{!-- main body --}}
+    <div class="main-body mx-auto">
+        {{!-- navbar partial included --}}
+        {{> navbar }}
+
+        <div class="thankyou-banner">
+            {{!-- text of banner --}}
+            <div class="banner-text">
+                <h1>Thank you,</h1>
+                <h1>Susie!</h1>
+                <h4>Order #BLK12345</h4>
+            </div>
+            {{!-- image in banner --}}
+            <div class="banner-img">
+                <img src="/images/bag.svg" alt="shopping bag">
+            </div>
+        </div>
+        {{!-- float cleared --}}
+        <div class="clear"></div>
+        {{!-- this is a text below the banner --}}
+        <div class="hi-name" style="padding-bottom:9px;">
+            <h3>Susie, your order has been received!</h3>
+            <p style="margin-bottom:20px;">Your order has been received and will be prepared for shipping shortly. Once
+                Australia Post has picked up
+                your order, they will send you a separate email with links to track your order.</p>
+            <h5 style="margin-bottom:5px;">What next?</h5>
+            <p style="margin-bottom:20px;">You have opted for regular deliveries one product in this order. You can
+                cancel or make changes to your
+                order at any time. Don’t worry, we’ll send you a reminder before we process your next order.</p>
+            <h5 style="margin-bottom:5px;">Delivery address</h5>
+            <p style="margin-bottom:20px;">2 Jubilee Ave, Warriewood, NSW 2102 AUS</p>
+            <h5 style="margin-bottom:5px;">Date of purchase</h5>
+            <p style="margin-bottom:20px;">Monday 14th June, 2018</p>
+            <hr style="margin-bottom: 0;">
+        </div>
+
+
+        <div class="product-table">
+
+            <table width="100%">
+                <tr>
+                    <td class="image-td">
+                        <img src="images/product-acidophilus-bifidus.png" alt="product image">
+                    </td>
+                    <td class="title-td">
+                        <h5 style="margin-bottom: 0;margin-top: 0px;">2 x Product name</h5>
+                        <h5 style="margin-bottom: 0;margin-top: 10px; color:#4a4a4a;font-weight:500;">One-off purchase
+                        </h5>
+                    </td>
+                    <td class="price-td text-right">
+                        <h5>$32.99</h5>
+                    </td>
+                </tr>
+            </table>
+            <hr style="margin-top:9px;margin-bottom:9px;">
+            <table width="100%">
+                <tr>
+                    <td class="image-td">
+                        <img src="images/product-acidophilus-bifidus.png" alt="product image">
+                    </td>
+                    <td class="title-td">
+                        <h5 style="margin-bottom: 0;margin-top: 0px;">2 x Product name</h5>
+                        <h5 style="margin-bottom: 0;margin-top: 10px; color:#4a4a4a;font-weight:500;">One-off purchase
+                        </h5>
+                    </td>
+                    <td class="price-td text-right">
+                        <h5>$32.99</h5>
+                    </td>
+                </tr>
+            </table>
+            <hr style="margin-top:9px;margin-bottom:9px;">
+            <table width="100%">
+                <tr>
+                    <td class="image-td">
+                        <img src="images/product-acidophilus-bifidus.png" alt="product image">
+                    </td>
+                    <td class="title-td">
+                        <h5 style="margin-bottom: 0;margin-top: 0px;">2 x Product name</h5>
+                        <h5 style="margin-bottom: 0;margin-top: 10px; color:#4a4a4a;font-weight:500;">One-off purchase
+                        </h5>
+                    </td>
+                    <td class="price-td text-right">
+                        <h5>$32.99</h5>
+                    </td>
+                </tr>
+            </table>
+            <hr style="margin-top:9px;">
+            <table width="100%">
+                <tr>
+                    <td class="payment-td">
+                        <h5 style="margin-top: -73px;">Payment method</h5>
+                        <h5 style="margin-bottom: 0;margin-top: 10px; color:#4a4a4a;font-weight:500;">Credit card</h5>
+                    </td>
+                    <td class="total-td text-right">
+                        <h5>Voucher</h5>
+                        <h5>Subtotal</h5>
+                        <h5>Discount</h5>
+                        <h5>GST</h5>
+                        <h5>Shipping</h5>
+                        <h5>Total</h5>
+                    </td>
+                    <td class="qantas-td text-right">
+                        <h5>QANTAS 30</h5>
+                        <h5>$68.99</h5>
+                        <h5>-$2.99</h5>
+                        <h5>$6.49 </h5>
+                        <h5>$12.00</h5>
+                        <h5>$75.79</h5>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="order-button mx-auto text-center" style="padding-top:30px;">
+            {{> button value='Download invoice' }}
+        </div>
+
+        <div class="bottom-banner-div">
+            <div class="bottom-banner text-center">
+                <p>When reordering product, please consider if your situation has changed and if this product is still
+                    appropriate for your condition. Please consult your healthcare professional before long term use of
+                    our products.</p>
+            </div>
+        </div>
+        {{> footer }}
+
+
+
+
+
+
+
+
+    </div>
+</div>

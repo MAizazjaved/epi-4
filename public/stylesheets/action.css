@@ -1,38 +1,53 @@
-.main-body {
-    max-width: 600px;
-}
-
-.hi-name h1, .hi-name h5 {
-    margin-bottom: 20px;
-}
-
-.hi-name {
+.action-banner {
     background-color: #fff;
-    padding-top: 50px;
+}
+
+.text-banner{
     padding-right: 35px;
     padding-left: 35px;
-    padding-bottom: 15px;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
-
-.hi-name p {
+.color-banner
+{
+    background-color: #EFF3F7;
+    border:1px solid #fff;
+}
+.text-banner p {
     color: #4a4a4a;
     font-size: 14px;
     line-height: 1.43;
 }
-
-.free-shipping {
-    background-color: #fff;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 10px;
+.Quote-Banner
+{
+    background-color: #7fbdbe;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 67px;
+    padding-bottom: 38px;
+    color: #fff;
 }
-
-.order-button {
-    background-color: #fff;
+.Action-button{
+    background-color: #7fbdbe;
     padding-left: 35%;
     padding-right: 35%;
     padding-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------------*/
 
@@ -53,22 +68,29 @@
 /********************* Portrait phones and smaller ************************8*/
 
 @media screen and (max-width: 575px) {
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .order-button {
-        padding-left: 28%;
-        padding-right: 28%;
-    }
-    .hi-name {
+    .text-banner{
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 30px;
-        padding-bottom: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;    
     }
-    .free-shipping {
-        padding-left: 20px;
-        padding-right: 20px;
+    .Quote-Banner
+    {
+        
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
     }
+    .Action-button{
+       
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 30px;
+    }
+   
+    .h1-height-1{
+        margin-bottom: 50px !important;    
+     }
 }
